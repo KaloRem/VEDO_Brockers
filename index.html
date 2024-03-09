@@ -23,42 +23,321 @@
     <!-- Title/logo -->
     <title>VEDO Brockers</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK//U4yv/1OMr/9TjK//U4yv/1OMr/9TjK//U4yv/1OMr/9TjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//AAAAZQAAAGUAAABlAAAAZQAAAGUAAABlAAAAZQAAAGUAAABlU4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAU4yv/1OMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr/9TjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//U4yvylOMr8pTjK/KU4yvylOMr8pTjK/KU4yvylOMr8pTjK/KU4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAU4yv/1OMr7FTjK+xU4yvsVOMr7FTjK+xU4yvsVOMr7FTjK+xU4yvsVOMr/9TjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK+YU4yvmFOMr5hTjK+YU4yvmFOMr5hTjK+YU4yvmFOMr5hTjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//U4yvfVOMr31TjK99U4yvfVOMr31TjK99U4yvfVOMr31TjK99U4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/9TjK9lU4yvZVOMr2VTjK9lU4yvZVOMr2VTjK9lU4yv/wAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/1OMr0tTjK9LU4yvS1OMr0tTjK9LU4yv/wAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAAAAAAAAAAABTjK//U4yvMVOMrzFTjK8xU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/8AAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/9TjK8XU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/8AAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAHv+AAB4AAAAeAAAAHgAAAB4AAAAeAAAAHv+AAB9/QAAvvsAAN93AADvrwAA998AAPu/AAD9fwAA/v8AAA==" />
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-e2204690.css">
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-9a45e705.css">
   </head>
   <body>
     <!-- Header -->
 <header class="header">
-  <a class="main_logo_link" href="../index.html">
-    <svg width="28" height="28">
-      <use href="../svg/VEDO.svg#VEDO_logo"></use>
-    </svg>
-    VEDO
-  </a>
-  <nav>
-    <ul>
-      <li><a href="#hero">Main</a></li>
-      <li><a href="#sale">Sale</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#feedbacks">Feedbacks</a></li>
-      <li><a href="#rent">Rent</a></li>
-      <li><a href="#footer">Lets Talk</a></li>
-    </ul>
-  </nav>
-  <a href="">Call us</a>
+  <div class="container">
+    <!-- Logo -->
+    <a class="main_logo_link" href="../index.html">
+      <svg class="main_logo_link_svg" width="40" height="40">
+        <use href="../svg/VEDO_logo_gold.svg#VEDO_logo_gold"></use>
+      </svg>
+      <div class="main_logo_link_company_name_container">
+        <h1 class="main_logo_link_company_name_headline">VEDO BROKERS</h1>
+        <h2 class="main_logo_link_company_name_desc">
+          ZNAJDŹ SWÓJ DOM W KRAKOWIE
+        </h2>
+      </div>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="header_nav">
+      <ul class="header_nav_list">
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#hero">Main</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#sale">Sale</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#contact">Contact</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#feedbacks">Feedbacks</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#rent">Rent</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a class="header_nav_list_item_link" href="#footer">Lets Talk</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Call us button -->
+    <a class="call_us_btn" href="tel:+48793234477">Call us</a>
+  </div>
 </header>
 
     <main>
       <!-- Hero -->
+<section class="hero_section">
+  <!-- Hero information -->
+  <div class="hero_information_container">
+    <h1 id="hero" class="hero_company_name">VEDO BROKERS</h1>
+    <h2 class="hero_headline">Znajdź swój DOM w Krakowie</h2>
+    <ul class="hero_btn_list">
+      <li class="hero_btn_list_item">
+        <button class="hero_btn">Buy a home</button>
+      </li>
+      <li class="hero_btn_list_item">
+        <button class="hero_btn">Rent a home</button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Hero background img -->
+  <div class="hero_backgroud_container">
+    <img
+      class="hero_backgroud_img"
+      src="../img/hero.png"
+      alt="white appartament"
+    />
+  </div>
+</section>
+
       <!-- For sale section -->
+<section class="for_sale_section">
+  <div class="container">
+    <h3 id="sale" class="for_sale_section_headline">Properties for Sale</h3>
+    <!-- Available options list -->
+    <ul class="for_sale_section_list">
+      <!-- I Option -->
+      <li class="for_sale_section_list_item">
+        <img class="for_sale_img" src="" alt="" />
+        <p class="for_sale_desc">Rowhouse</p>
+        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
+        <p class="for_sale_attributes">
+          2 Beds | 1 Bath | 1 Car<br />Wheelchair accessible listing
+        </p>
+      </li>
+
+      <!-- II Option -->
+      <li class="for_sale_section_list_item">
+        <img class="for_sale_img" src="" alt="" />
+        <p class="for_sale_desc">Condo</p>
+        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
+        <p class="for_sale_attributes">1 Bed | 2 Bath | 1 Car</p>
+      </li>
+
+      <!-- III Option -->
+      <li class="for_sale_section_list_item">
+        <img class="for_sale_img" src="" alt="" />
+        <p class="for_sale_desc">Single-family home</p>
+        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
+        <p class="for_sale_attributes">
+          2 Beds | 3 Bath | 2 Car<br />Wheelchair accessible listing
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
 
       <!-- Contact us section -->
+<section class="contact_us_section">
+  <!-- Contact us background img -->
+  <div class="contact_us_backgroud_container">
+    <img
+      class="contact_us_background_img"
+      src="../img/contact.jpg"
+      alt="Planning appartament"
+    />
+  </div>
 
-      <!-- For rent section -->
+  <!-- Contact us informtion -->
+  <div class="contact_us_information_container">
+    <h2 id="contact" class="contact_us_information_headline">
+      Our vision is to be the most trusted and respected real estate agency in
+      Krakow.
+    </h2>
+    <button class="contact_us_btn">Contact us</button>
+  </div>
+</section>
 
       <!-- Feedback section -->
+<section class="feedback_section">
+  <h3 id="feedbacks" class="feedback_section_headline">Opinie klientów</h3>
+  <!-- Feedbacks list -->
+  <ul class="feedback_section_list">
+    <!-- I feedback -->
+    <li class="feedback_section_list_item">
+      <svg class="feedback_section_svg">
+        <use></use>
+      </svg>
+      <p class="feedback_section_text">
+        Profesjonalna i rzetelna agencja. Pomogła nam w zakupie mieszkania oraz
+        w jego wynajmie. Pomogli w rozwiązaniu wszystkich związanych z tym
+        kwestii i w pełni towarzyszyli całemu procesowi. Byłem pod miłym
+        wrażeniem. Polecam.
+      </p>
+      <h4 class="feedback_section_author">-Anatolii Snopko</h4>
+    </li>
+
+    <!-- II feedback -->
+    <li class="feedback_section_list_item">
+      <svg class="feedback_section_svg">
+        <use></use>
+      </svg>
+      <p class="feedback_section_text">
+        Świetny agent!!! Miałam doświadczenie z innymi i to była katastrofa.
+        Więc było z czym porównywać podejście Victorii do jej zadania. Dzisiaj
+        wynegocjowaliśmy warunki z idealnym właścicielem i jest to 300% wygrana
+        dla Victorii. Była bardzo pewna siebie, mówiąc mi "nawet się nie martw!
+        Znajdziemy to!".
+      </p>
+      <h4 class="feedback_section_author">-Lina Sdrtsva</h4>
+    </li>
+
+    <!-- III feedback -->
+    <li class="feedback_section_list_item">
+      <svg class="feedback_section_svg">
+        <use></use>
+      </svg>
+      <p class="feedback_section_text">
+        Jestem w 100% zadowolona ze współpracy. Szukaliśmy mieszkania do
+        wynajęcia. Dmytro dokładnie wypytał o wszystkie nasze życzenia i
+        wszystkie oferowane przez niego oferty były z nimi zgodne. Szybko
+        znaleźliśmy mieszkanie, które nam się podobało.
+      </p>
+      <h4 class="feedback_section_author">-Victoriia Maslianok</h4>
+    </li>
+  </ul>
+</section>
+
+      <!-- For rent section -->
+<section class="for_rent_section">
+  <div class="container">
+    <h3 id="rent" class="for_rent_section_headline">Properties for rent</h3>
+    <!-- Available options list -->
+    <ul class="for_rent_section_list">
+      <!-- I Option -->
+      <li class="for_rent_section_list_item">
+        <img class="for_rent_img" src="" alt="" />
+        <p class="for_rent_desc">Rowhouse</p>
+        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
+        <p class="for_rent_attributes">
+          2 Beds | 1 Bath | 1 Car<br />Wheelchair accessible listing
+        </p>
+      </li>
+
+      <!-- II Option -->
+      <li class="for_rent_section_list_item">
+        <img class="for_rent_img" src="" alt="" />
+        <p class="for_rent_desc">Condo</p>
+        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
+        <p class="for_rent_attributes">1 Bed | 2 Bath | 1 Car</p>
+      </li>
+
+      <!-- III Option -->
+      <li class="for_rent_section_list_item">
+        <img class="for_rent_img" src="" alt="" />
+        <p class="for_rent_desc">Single-family home</p>
+        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
+        <p class="for_rent_attributes">
+          2 Beds | 3 Bath | 2 Car<br />Wheelchair accessible listing
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
 
     </main>
     <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <h1 class="footer_company_name">VEDO BROKERS</h1>
+    <!-- Let`s Talk -->
+    <div class="sm_and_adress_container">
+      <h3 id="footer" class="sm_and_adress_headline">Let's Talk</h3>
+      <!-- Adress list -->
+      <ul class="addresses_list">
+        <!-- Google Maps -->
+        <li class="addresses_list_item">
+          <a
+            class="addresses_list_item_link"
+            href="https://www.google.com/maps/place/VEDO+Brokers/@50.0402326,19.9624724,17z/data=!3m1!4b1!4m6!3m5!1s0x47165bf54922f6fd:0xfe96a099220bfadb!8m2!3d50.0402326!4d19.9624724!16s%2Fg%2F11t6j72ysp?entry=ttu"
+            >Zamknięta 10/1.5, 31-535 Kraków
+          </a>
+        </li>
+
+        <!-- Phone number -->
+        <li class="addresses_list_item">
+          <a class="addresses_list_item_link" href="tel:+48793234477"
+            >+48 793 234 477
+          </a>
+        </li>
+
+        <!-- Email adress -->
+        <li class="addresses_list_item">
+          <a
+            class="addresses_list_item_link"
+            href="mailto:vedo.brokers@gmail.com"
+            >vedo.brokers@gmail.com
+          </a>
+        </li>
+      </ul>
+
+      <!-- SM container -->
+      <ul class="sm_list">
+        <li class="sm_list_item">
+          <h4 class="sm_list_headline">GET SOCIAL</h4>
+        </li>
+        <li class="sm_list_item">
+          <ul class="sm_links_list">
+            <li class="sm_links_list_item">
+              <a
+                class="sm_links_list_item_link"
+                href="https://www.facebook.com/vedo.brokers"
+              >
+                <svg class="sm_links_list_item_svg">
+                  <use href="../svg/sprite.svg#icon_facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="sm_links_list_item">
+              <a
+                class="sm_links_list_item_link"
+                href="https://www.instagram.com/vedo.brokers/"
+              >
+                <svg class="sm_links_list_item_svg">
+                  <use href="../svg/sprite.svg#icon_instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="sm_links_list_item">
+              <a
+                class="sm_links_list_item_link"
+                href="https://t.me/vedobrokers"
+              >
+                <svg class="sm_links_list_item_svg">
+                  <use href="../svg/sprite.svg#icon_telegram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Business Hours -->
+    <ul class="business_hours_list">
+      <li class="business_hours_list_item">
+        <h3 class="business_hours_headline">Business Hours</h3>
+      </li>
+      <li class="business_hours_list_item">
+        <p class="business_hours_list_desc">
+          Monday to Friday<br />9:00 am to 6:00 pm
+        </p>
+        <p class="business_hours_list_desc">Saturday<br />9:00 am to 12 am</p>
+        <p class="business_hours_list_desc">Sunday by appointment only.</p>
+      </li>
+    </ul>
+  </div>
+</footer>
 
   </body>
 </html>
