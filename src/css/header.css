@@ -1,1 +1,12 @@
 /* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.main_logo_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}

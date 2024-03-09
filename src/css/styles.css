@@ -3,30 +3,29 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./what_we_do.css');
-@import url('./about_us.css');
-@import url('./our_recent_work.css');
-@import url('./our_testimonials.css');
+@import url('./for_sale_section.css');
+@import url('./contact_us_section.css');
+@import url('./for_rent_section.css');
+@import url('./feedback.section.css');
 @import url('./footer.css');
 
 :root {
-  --header-color: #331b3b;
-  --text-color: #331b3b66;
-  --additionaly-color: #fdc221;
+  --main-background-color: #000000;
+  --secondary-background-color: #252926;
+  --main-font-kolor: #af8c53;
 
-  font-family: 'Hind Vadodara' sans-serif;
-  line-height: 1.6;
+  font-family: 'Merriweather' sans-serif;
+  line-height: 1.5;
   letter-spacing: 2%;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 460;
   font-style: normal;
 
-  color: var(--text-color);
-  background-color: #e5e5e5;
+  color: var(--main-font-kolor);
 }
 
 .container {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 76px;
+  padding-right: 76px;
   width: 100%;
 }
