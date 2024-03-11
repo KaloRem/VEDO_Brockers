@@ -23,18 +23,19 @@
     <!-- Title/logo -->
     <title>VEDO Brockers</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK//U4yv/1OMr/9TjK//U4yv/1OMr/9TjK//U4yv/1OMr/9TjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//AAAAZQAAAGUAAABlAAAAZQAAAGUAAABlAAAAZQAAAGUAAABlU4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAU4yv/1OMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr/9TjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK/kU4yv5FOMr+RTjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//U4yvylOMr8pTjK/KU4yvylOMr8pTjK/KU4yvylOMr8pTjK/KU4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAU4yv/1OMr7FTjK+xU4yvsVOMr7FTjK+xU4yvsVOMr7FTjK+xU4yvsVOMr/9TjK//AAAAAAAAAAAAAAAAAAAAAFOMr/9TjK+YU4yvmFOMr5hTjK+YU4yvmFOMr5hTjK+YU4yvmFOMr5hTjK//U4yv/wAAAAAAAAAAAAAAAAAAAABTjK//U4yvfVOMr31TjK99U4yvfVOMr31TjK99U4yvfVOMr31TjK99U4yv/1OMr/8AAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/9TjK9lU4yvZVOMr2VTjK9lU4yvZVOMr2VTjK9lU4yv/wAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/1OMr0tTjK9LU4yvS1OMr0tTjK9LU4yv/wAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAAAAAAAAAAABTjK//U4yvMVOMrzFTjK8xU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/8AAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/9TjK8XU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTjK//AAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOMr/8AAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU4yv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAHv+AAB4AAAAeAAAAHgAAAB4AAAAeAAAAHv+AAB9/QAAvvsAAN93AADvrwAA998AAPu/AAD9fwAA/v8AAA==" />
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-9a45e705.css">
+    <script type="module" crossorigin src="/VEDO_Brockers/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-2ddc8627.css">
   </head>
   <body>
     <!-- Header -->
 <header class="header">
-  <div class="container">
+  <div class="header_container container">
     <!-- Logo -->
     <a class="main_logo_link" href="../index.html">
-      <svg class="main_logo_link_svg" width="40" height="40">
-        <use href="../svg/VEDO_logo_gold.svg#VEDO_logo_gold"></use>
+      <svg class="main_logo_link_svg">
+        <use href="../svg/sprite.svg#icon_VEDO_round"></use>
       </svg>
-      <div class="main_logo_link_company_name_container">
+      <div class="main_logo_link_company_container">
         <h1 class="main_logo_link_company_name_headline">VEDO BROKERS</h1>
         <h2 class="main_logo_link_company_name_desc">
           ZNAJDŹ SWÓJ DOM W KRAKOWIE
@@ -42,8 +43,8 @@
       </div>
     </a>
 
-    <!-- Navigation -->
-    <nav class="header_nav">
+    <!-- Desktop Navigation -->
+    <nav class="desktop_header_nav">
       <ul class="header_nav_list">
         <li class="header_nav_list_item">
           <a class="header_nav_list_item_link" href="#hero">Main</a>
@@ -70,6 +71,30 @@
     <a class="call_us_btn" href="tel:+48793234477">Call us</a>
   </div>
 </header>
+
+<!-- Mobile navigation menu
+<nav class="mobile_header_nav">
+  <ul class="header_nav_list">
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#hero">Main</a>
+    </li>
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#sale">Sale</a>
+    </li>
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#contact">Contact</a>
+    </li>
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#feedbacks">Feedbacks</a>
+    </li>
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#rent">Rent</a>
+    </li>
+    <li class="header_nav_list_item">
+      <a class="header_nav_list_item_link" href="#footer">Lets Talk</a>
+    </li>
+  </ul>
+</nav> -->
 
     <main>
       <!-- Hero -->
@@ -106,7 +131,11 @@
     <ul class="for_sale_section_list">
       <!-- I Option -->
       <li class="for_sale_section_list_item">
-        <img class="for_sale_img" src="" alt="" />
+        <img
+          class="for_sale_img"
+          src="../img/1.jpeg"
+          alt="I apartament option"
+        />
         <p class="for_sale_desc">Rowhouse</p>
         <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
         <p class="for_sale_attributes">
@@ -116,7 +145,11 @@
 
       <!-- II Option -->
       <li class="for_sale_section_list_item">
-        <img class="for_sale_img" src="" alt="" />
+        <img
+          class="for_sale_img"
+          src="../img/2.jpeg"
+          alt="II apartament option"
+        />
         <p class="for_sale_desc">Condo</p>
         <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
         <p class="for_sale_attributes">1 Bed | 2 Bath | 1 Car</p>
@@ -124,7 +157,11 @@
 
       <!-- III Option -->
       <li class="for_sale_section_list_item">
-        <img class="for_sale_img" src="" alt="" />
+        <img
+          class="for_sale_img"
+          src="../img/3.jpeg"
+          alt="III apartament option"
+        />
         <p class="for_sale_desc">Single-family home</p>
         <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
         <p class="for_sale_attributes">
@@ -214,7 +251,11 @@
     <ul class="for_rent_section_list">
       <!-- I Option -->
       <li class="for_rent_section_list_item">
-        <img class="for_rent_img" src="" alt="" />
+        <img
+          class="for_rent_img"
+          src="../img/4.jpeg"
+          alt="IV apartament option"
+        />
         <p class="for_rent_desc">Rowhouse</p>
         <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
         <p class="for_rent_attributes">
@@ -224,7 +265,11 @@
 
       <!-- II Option -->
       <li class="for_rent_section_list_item">
-        <img class="for_rent_img" src="" alt="" />
+        <img
+          class="for_rent_img"
+          src="../img/5.jpeg"
+          alt="V apartament option"
+        />
         <p class="for_rent_desc">Condo</p>
         <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
         <p class="for_rent_attributes">1 Bed | 2 Bath | 1 Car</p>
@@ -232,7 +277,11 @@
 
       <!-- III Option -->
       <li class="for_rent_section_list_item">
-        <img class="for_rent_img" src="" alt="" />
+        <img
+          class="for_rent_img"
+          src="../img/6.jpeg"
+          alt="VI apartament option"
+        />
         <p class="for_rent_desc">Single-family home</p>
         <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
         <p class="for_rent_attributes">
@@ -339,5 +388,6 @@
   </div>
 </footer>
 
+    
   </body>
 </html>
