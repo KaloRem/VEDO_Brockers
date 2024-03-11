@@ -3,7 +3,7 @@
   background-color: var(--secondary-background-color);
 }
 
-.header_container {
+.header_nav {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -37,8 +37,20 @@
   }
 }
 
-.main_logo_link_company_container,
-.desktop_header_nav,
-.call_us_btn {
+.main_logo_link_company_container {
   display: none;
+}
+
+.mob_menu_btn {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--main-font-color);
 }
