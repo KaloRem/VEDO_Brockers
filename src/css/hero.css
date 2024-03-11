@@ -1,1 +1,4 @@
 /* Hero */
+.hero_section {
+  background-color: var(--secondary-background-color);
+}

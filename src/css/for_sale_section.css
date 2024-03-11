@@ -1,1 +1,4 @@
 /* For sale section */
+.for_sale_section {
+  background-color: var(--main-background-color);
+}

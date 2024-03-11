@@ -1,1 +1,4 @@
 /* Feedback section */
+.feedback_section {
+  background-color: var(--main-background-color);
+}

@@ -1,1 +1,44 @@
 /* Header */
+.header {
+  background-color: var(--secondary-background-color);
+}
+
+.header_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo */
+.main_logo_link {
+  stroke: var(--main-font-color);
+}
+
+.main_logo_link:hover {
+  stroke: white;
+}
+
+.main_logo_link_svg {
+  width: 40px;
+  height: 40px;
+  animation: scaled-color-change 3s infinite;
+}
+@keyframes scaled-color-change {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    stroke: white;
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.main_logo_link_company_container,
+.desktop_header_nav,
+.call_us_btn {
+  display: none;
+}

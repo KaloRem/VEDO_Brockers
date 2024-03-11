@@ -1,1 +1,4 @@
 /* For rent section */
+.for_rent_section {
+  background-color: var(--for-rent-background-color);
+}
