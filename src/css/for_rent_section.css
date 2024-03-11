@@ -1,4 +1,53 @@
 /* For rent section */
 .for_rent_section {
   background-color: var(--for-rent-background-color);
+  padding: 20px;
+}
+
+.for_rent_section_headline {
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.for_rent_section_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.for_rent_section_list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for_rent_img {
+  border-radius: 10px;
+  width: 75%;
+  height: 75%;
+  margin-bottom: 30px;
+}
+
+.for_rent_info_container {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid var(--main-font-color);
+  border-bottom: 1px solid var(--main-font-color);
+}
+
+.for_rent_attributes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,6 +1,9 @@
 /* Header */
 .header {
   background-color: var(--secondary-background-color);
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .header_nav {
@@ -8,6 +11,8 @@
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--main-font-color);
 }
 
 /* logo */
@@ -41,8 +46,48 @@
   display: none;
 }
 
+/* Navigation */
+.header_nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  left: -100%;
+  top: 86px;
+  background-color: var(--secondary-background-color);
+  border-bottom: 2px solid var(--main-font-color);
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.header_nav_list.active {
+  left: 0;
+}
+
+.header_nav_list_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* "Burger" */
 .mob_menu_btn {
   cursor: pointer;
+}
+
+.mob_menu_btn.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.mob_menu_btn.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.mob_menu_btn.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .bar {
@@ -53,4 +98,32 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: var(--main-font-color);
+}
+
+/* Click-to-call button */
+.call_us_btn {
+  position: fixed;
+  bottom: 4%;
+  right: 8%;
+  width: 25px;
+  height: 25px;
+  background-color: var(--secondary-background-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--main-font-color);
+  animation: call-us-btn-scaled-color-change 3s infinite;
+}
+@keyframes call-us-btn-scaled-color-change {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    fill: white;
+  }
+  to {
+    transform: scale(1);
+  }
 }
