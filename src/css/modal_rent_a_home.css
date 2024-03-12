@@ -1,0 +1,136 @@
+/* Modal window "Rent a home" */
+/* Modal container */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: animateshow 0.5s;
+}
+@keyframes animateshow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.modal_content {
+  background-color: var(--main-background-color);
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 10px;
+  width: 90%;
+}
+
+/* Modal header */
+.modal_company_name {
+  font-size: 12px;
+  padding-bottom: 40px;
+}
+
+.modal_title_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.modal_title_list_item {
+  display: flex;
+}
+
+.modal_title_headline {
+  font-size: 24px;
+}
+
+.modal_close_btn {
+  border: none;
+  background: none;
+  line-height: 0;
+}
+
+.modal_close_btn_svg {
+  fill: var(--main-font-color);
+  width: 20px;
+  height: 20px;
+  line-height: 0px;
+}
+
+/* Form */
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_group_title {
+  font-size: 16px;
+}
+
+.form_group_item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+  border: 1px solid var(--main-font-color);
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+input[type='checkbox'] {
+  outline: 1px solid var(--main-font-color);
+}
+
+.contact_detail_title {
+  font-size: 16px;
+}
+
+.contact_detail_group_item {
+  background: transparent;
+  outline: none;
+  color: var(--main-font-color);
+  transition: outline 100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact_detail_group_item:focus {
+  outline: 4px solid var(--main-font-color);
+}
+
+.modal_submit_btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--main-font-color);
+  outline: none;
+  background: transparent;
+  color: var(--main-font-color);
+  box-shadow: 0 0 10px var(--main-font-color);
+}
+
+.modal_submit_btn:disabled {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  background: transparent;
+  color: black;
+  opacity: 40%;
+  box-shadow: 0 0 10px black;
+}
