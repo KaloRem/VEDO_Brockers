@@ -16,18 +16,21 @@
 }
 
 .hero_btn_list {
-  display: flex;
-  gap: 20px;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .hero_btn {
-  padding: 5px 10px;
-  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
   border: 1px solid var(--main-font-color);
   outline: none;
   background: transparent;
   color: var(--main-font-color);
+  box-shadow: 0 0 10px var(--main-font-color);
 }
 
 .hero_backgroud_img {

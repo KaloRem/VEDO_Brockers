@@ -1,2 +1,2 @@
 import './js/mobile_menu';
-import './js/fixed_header';
+import './js/scroll_progress';
