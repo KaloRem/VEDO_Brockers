@@ -53,10 +53,10 @@
   text-align: justify;
   background-image: linear-gradient(
       90deg,
-      rgba(37, 41, 38, 1) 0%,
-      rgba(37, 41, 38, 0) 100%
+      rgba(37, 41, 38, 0.9) 0%,
+      rgba(37, 41, 38, 0.9) 100%
     ),
-    url(../svg/VEDO_logo_oryginal_empty.svg);
+    url(../svg/VEDO_logo_oryginal_with_gradient.svg);
 
   background-position: center;
   background-repeat: no-repeat;
