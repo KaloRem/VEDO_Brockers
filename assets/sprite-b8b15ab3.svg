@@ -1,6 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 
+<symbol id="icon_VEDO_logo_oryginal_with_gradient" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5818" d="M8.887 30.684v-10.444l12.436-13.207q9.456 10.356 9.456 10.269t0 13.382h-21.893z"></path>
+<path fill="none" stroke="#dabb8a" style="stroke: var(--color1, #dabb8a)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5818" d="M1.236 30.844l-0.016-13.629 15.1-16.058 5.004 5.876"></path>
+</symbol>
+
 <symbol id="icon_VEDO_logo_oryginal_empty" viewBox="0 0 34 32">
 <path fill="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M9.31 31.383v-10.941l13.029-13.836q9.907 10.85 9.907 10.758t0 14.019h-22.935z"></path>
 <path fill="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M1.295 31.55l-0.017-14.278 15.819-16.823 5.242 6.156"></path>
