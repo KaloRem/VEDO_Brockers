@@ -1,7 +1,7 @@
 // MODAL WINDOW OPEN/CLOSE
-var modal = document.getElementById('modal');
-var openBtn = document.getElementById('openBtn');
-var closeBtn = document.getElementById('closeBtn');
+var modal = document.getElementById('modalRent');
+var openBtn = document.getElementById('openBtnRent');
+var closeBtn = document.getElementById('closeBtnRent');
 
 // Store the original overflow value of the body for proper restoration
 var bodyOverflowStyle;
