@@ -1,18 +1,13 @@
 /* Hero */
 .hero_section {
-  background-color: var(--secondary-background-color);
+  background-color: var(--top-background-color);
   padding: 20px;
-}
-
-.hero_company_name {
-  font-size: 12px;
-  padding-bottom: 40px;
 }
 
 .hero_headline {
   font-size: 32px;
   font-weight: normal;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .hero_btn_list {

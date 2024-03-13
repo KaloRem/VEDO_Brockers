@@ -1,6 +1,6 @@
 /* For sale section */
 .for_sale_section {
-  background-color: var(--for-rent-background-color);
+  background-color: var(--main-background-color);
   padding: 20px;
 }
 

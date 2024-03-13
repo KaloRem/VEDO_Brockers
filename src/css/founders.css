@@ -1,0 +1,71 @@
+/* Founders */
+.founders_section {
+  padding: 20px;
+  background: rgb(37, 41, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 41, 38, 1) 0%,
+    rgba(37, 41, 38, 1) 100%
+  );
+  border-top: 1px solid var(--main-font-color);
+}
+
+.founders_section_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.founders_section_list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ceo_member {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid var(--top-background-color);
+  border-bottom: 1px solid var(--top-background-color);
+}
+
+.mobile_founders_section_headline {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.founders_section_list_item_img {
+  border-radius: 10px;
+}
+
+.founders_section_list_item_desc {
+  text-align: center;
+}
+
+/* Quote */
+.quote_founders_section_list_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+  background-image: linear-gradient(
+      90deg,
+      rgba(37, 41, 38, 1) 0%,
+      rgba(37, 41, 38, 0) 100%
+    ),
+    url(../svg/VEDO_round_copy.svg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.quote_founders_section_list_item_headline {
+  display: none;
+}
+
+.quote_founders_section_list_item_author {
+  text-align: end;
+}
