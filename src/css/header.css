@@ -32,14 +32,9 @@
   stroke: var(--main-font-color);
 }
 
-.main_logo_link:hover {
-  stroke: white;
-}
-
 .main_logo_link_svg {
   width: 40px;
   height: 40px;
-  stroke: var(--main-font-color);
   animation: scaled-color-change 3s infinite;
 }
 @keyframes scaled-color-change {

@@ -30,6 +30,7 @@
   width: 75%;
   height: 75%;
   margin-bottom: 30px;
+  box-shadow: 0 0 10px var(--top-background-color);
 }
 
 .for_sale_info_container {

@@ -122,6 +122,7 @@
   color: black;
   opacity: 40%;
   box-shadow: 0 0 10px black;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .modal_submit_btn {
@@ -133,4 +134,5 @@
   background: transparent;
   color: var(--main-font-color);
   box-shadow: 0 0 10px var(--main-font-color);
+  transition: box-shadow 0.2s ease-in-out;
 }
