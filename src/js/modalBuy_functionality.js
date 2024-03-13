@@ -3,7 +3,7 @@ const modal = document.getElementById('modalBuy');
 const openBtn = document.getElementById('openBtnBuy');
 const closeBtn = document.getElementById('closeBtnBuy');
 const checkboxes = document.querySelectorAll('input[name="option"]');
-const submitButton = document.querySelector('button[type="submit"]');
+const submitButton = document.getElementById('checkBtnBuy');
 // Store the original overflow value of the body for proper restoration
 var bodyOverflowStyle;
 
@@ -26,6 +26,8 @@ openBtn.onclick = function () {
   // Prevent body scrolling when modal is open
   bodyOverflowStyle = document.body.style.overflow;
   document.body.style.overflow = 'hidden';
+
+  submitButton.disabled = !isAtLeastOneCheckboxChecked();
 };
 
 // Close modal by button
@@ -38,9 +40,11 @@ closeBtn.onclick = function () {
 
 // Close modal by clicking outside of modal
 window.onclick = function (event) {
-  if (event.target == modal) {
+  if (event.target.id === modal.id) {
     modal.style.display = 'none';
     document.body.style.overflow = bodyOverflowStyle;
+  } else {
+    return console.error;
   }
 };
 
