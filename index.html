@@ -26,7 +26,7 @@
     <!-- JS scripts -->
     
     <script type="module" crossorigin src="/VEDO_Brockers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-965126fb.css">
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-93c91043.css">
   </head>
   <body>
     <!-- Header -->
@@ -84,10 +84,10 @@
   <h2 class="hero_headline">Znajdź swój DOM w Krakowie</h2>
   <ul class="hero_btn_list">
     <li class="hero_btn_list_item">
-      <button id="openBtn" class="hero_btn">Buy a home</button>
+      <button id="openBtnBuy" class="hero_btn">Buy a home</button>
     </li>
     <li class="hero_btn_list_item">
-      <button id="openBtn" class="hero_btn">Rent a home</button>
+      <button id="openBtnRent" class="hero_btn">Rent a home</button>
     </li>
   </ul>
 
@@ -275,8 +275,8 @@
 </section>
 
       <!-- Modal window "Buy a home" -->
-<div id="modal" class="modal">
-  <div class="modal_content">
+<div id="modalBuy" class="modal">
+  <div id="contentBuy" class="modal_content">
     <h1 class="modal_company_name">VEDO BROKERS</h1>
     <!-- Headline and close button -->
     <ul class="modal_title_list">
@@ -284,7 +284,7 @@
         <h3 class="modal_title_headline">Buy a home</h3>
       </li>
       <li class="modal_title_list_item">
-        <button id="closeBtn" type="button" class="modal_close_btn">
+        <button id="closeBtnBuy" type="button" class="modal_close_btn">
           <svg class="modal_close_btn_svg">
             <use href="/VEDO_Brockers/assets/sprite-89e42b94.svg#icon_cross"></use>
           </svg>
@@ -373,7 +373,7 @@
 </div>
 
       <!-- Modal window "Rent a home" -->
-<div id="modal" class="modal">
+<div id="modalRent" class="modal">
   <div class="modal_content">
     <h1 class="modal_company_name">VEDO BROKERS</h1>
     <!-- Headline and close button -->
@@ -382,7 +382,7 @@
         <h3 class="modal_title_headline">Rent a home</h3>
       </li>
       <li class="modal_title_list_item">
-        <button id="closeBtn" type="button" class="modal_close_btn">
+        <button id="closeBtnRent" type="button" class="modal_close_btn">
           <svg class="modal_close_btn_svg">
             <use href="/VEDO_Brockers/assets/sprite-89e42b94.svg#icon_cross"></use>
           </svg>
