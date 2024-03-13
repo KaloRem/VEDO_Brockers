@@ -7,6 +7,8 @@ const submitButton = document.querySelector('button[type="submit"]');
 // Store the original overflow value of the body for proper restoration
 var bodyOverflowStyle;
 
+submitButton.disabled = true; // Domyślnie wyłącz przycisk
+
 // Function to check if at least one checkbox is selected
 function isAtLeastOneCheckboxChecked() {
   for (const checkbox of checkboxes) {
