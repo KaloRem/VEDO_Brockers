@@ -1,6 +1,16 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 
+<symbol id="icon_VEDO_logo_oryginal_empty" viewBox="0 0 34 32">
+<path fill="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M9.31 31.383v-10.941l13.029-13.836q9.907 10.85 9.907 10.758t0 14.019h-22.935z"></path>
+<path fill="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M1.295 31.55l-0.017-14.278 15.819-16.823 5.242 6.156"></path>
+</symbol>
+
+<symbol id="icon_VEDO_logo_oryginal_stroke" viewBox="0 0 34 32">
+<path fill="none" stroke="#af8c53" style="stroke: var(--color1, #af8c53)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M9.31 31.383v-10.941l13.029-13.836q9.907 10.85 9.907 10.758t0 14.019h-22.935z"></path>
+<path fill="none" stroke="#af8c53" style="stroke: var(--color1, #af8c53)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6095" d="M1.295 31.55l-0.017-14.278 15.819-16.823 5.242 6.156"></path>
+</symbol>
+
 <symbol id="icon_phone" viewBox="0 0 32 32">
 <path d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"></path>
 </symbol>
