@@ -1,5 +1,6 @@
 /* Contact us section */
 .contact_us_section {
+  display: none !important;
   background-color: var(--main-background-color);
   padding: 20px;
   display: flex;

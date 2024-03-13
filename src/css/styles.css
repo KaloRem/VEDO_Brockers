@@ -8,9 +8,7 @@
 @import url('./for_rent_section.css');
 @import url('./feedback_section.css');
 @import url('./footer.css');
-@import url('./modal_buy_a_home.css');
-@import url('./modal_rent_a_home.css');
-@import url('./modal_contact_us.css');
+@import url('./modal.css');
 
 :root {
   --secondary-background-color: #000000;

@@ -1,9 +1,9 @@
 // MODAL WINDOW OPEN/CLOSE
-const modal = document.getElementById('modalRent');
-const openBtn = document.getElementById('openBtnRent');
-const closeBtn = document.getElementById('closeBtnRent');
+const modal = document.getElementById('modal');
+const openBtn = document.getElementById('openBtn');
+const closeBtn = document.getElementById('closeBtn');
 const checkboxes = document.querySelectorAll('input[name="option"]');
-const submitButton = document.getElementById('checkBtnRent');
+const submitButton = document.getElementById('checkBtn');
 // Store the original overflow value of the body for proper restoration
 var bodyOverflowStyle;
 
