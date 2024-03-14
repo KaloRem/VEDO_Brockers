@@ -20,6 +20,10 @@
     />
     <!-- Styles -->
     
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- Title/logo -->
     <title>VEDO Brockers</title>
     <link
@@ -27,10 +31,8 @@
       type="image/x-icon"
       href="/VEDO_Brockers/assets/VEDO_logo_oryginal_with_gradient-f2681cc9.svg"
     />
-    <!-- JS scripts -->
-    
     <script type="module" crossorigin src="/VEDO_Brockers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-1b9ece8b.css">
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-56654988.css">
   </head>
   <body>
     <!-- Header -->
@@ -103,47 +105,133 @@
 </section>
 
       <!-- For sale section -->
-<section id="sale" class="for_sale_section">
-  <h3 class="for_sale_section_headline">Sprzedaż</h3>
+<section id="sale" class="option_section">
+  <h3 class="option_section_headline">Sprzedaż</h3>
   <!-- Available options list -->
-  <ul class="for_sale_section_list">
-    <!-- I Option -->
-    <li class="for_sale_section_list_item">
-      <img class="for_sale_img" src="/VEDO_Brockers/assets/1-afc8d068.jpg" alt="I apartament option" />
-      <div class="for_sale_info_container">
-        <p class="for_sale_desc">Rowhouse</p>
-        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
-        <p class="for_sale_attributes">
-          2 Beds | 1 Bath | 1 Car <span>Wheelchair accessible listing</span>
-        </p>
+  <!-- I Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/1-afc8d068.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/2-313846b5.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/3-2d72b789.jpg)"
+        ></div>
+        ...
       </div>
-      <p class="price">150.000$</p>
-    </li>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-    <!-- II Option -->
-    <li class="for_sale_section_list_item">
-      <img class="for_sale_img" src="/VEDO_Brockers/assets/2-313846b5.jpg" alt="II apartament option" />
-      <div class="for_sale_info_container">
-        <p class="for_sale_desc">Condo</p>
-        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
-        <p class="for_sale_attributes">1 Bed | 2 Bath | 1 Car</p>
-      </div>
-      <p class="price">150.000$</p>
-    </li>
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
 
-    <!-- III Option -->
-    <li class="for_sale_section_list_item">
-      <img class="for_sale_img" src="/VEDO_Brockers/assets/3-2d72b789.jpg" alt="III apartament option" />
-      <div class="for_sale_info_container">
-        <p class="for_sale_desc">Single-family home</p>
-        <h4 class="for_sale_adress">123 Anywhere St., Any City</h4>
-        <p class="for_sale_attributes">
-          2 Beds | 3 Bath | 2 Car <span>Wheelchair accessible listing</span>
-        </p>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Rowhouse</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">
+        2 Beds | 1 Bath | 1 Car <span>Wheelchair accessible listing</span>
+      </p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
+
+  <!-- II Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/1-afc8d068.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/2-313846b5.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/3-2d72b789.jpg)"
+        ></div>
+        ...
       </div>
-      <p class="price">150.000$</p>
-    </li>
-  </ul>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Condo</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">2 Beds | 1 Bath | 1 Car</p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
+
+  <!-- III Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/1-afc8d068.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/2-313846b5.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/3-2d72b789.jpg)"
+        ></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Single-family home</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">2 Beds | 1 Bath | 1 Car</p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
 </section>
 
       <!-- Founders -->
@@ -194,44 +282,133 @@
 </section>
 
       <!-- For rent section -->
-<section id="rent" class="for_rent_section">
-  <h3 class="for_rent_section_headline">Wynajem</h3>
+<section id="rent" class="option_section">
+  <h3 class="option_section_headline">Wynajem</h3>
   <!-- Available options list -->
-  <ul class="for_rent_section_list">
-    <!-- IV Option -->
-    <li class="for_rent_section_list_item">
-      <img class="for_rent_img" src="/VEDO_Brockers/assets/4-35b7391a.jpg" alt="I apartament option" />
-      <div class="for_rent_info_container">
-        <p class="for_rent_desc">Rowhouse</p>
-        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
-        <p class="for_rent_attributes">
-          2 Beds | 1 Bath | 1 Car <span>Wheelchair accessible listing</span>
-        </p>
+  <!-- I Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/4-35b7391a.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/5-713fc141.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/6-bda2cb63.jpg)"
+        ></div>
+        ...
       </div>
-    </li>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-    <!-- V Option -->
-    <li class="for_rent_section_list_item">
-      <img class="for_rent_img" src="/VEDO_Brockers/assets/5-713fc141.jpg" alt="II apartament option" />
-      <div class="for_rent_info_container">
-        <p class="for_rent_desc">Condo</p>
-        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
-        <p class="for_rent_attributes">1 Bed | 2 Bath | 1 Car</p>
-      </div>
-    </li>
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
 
-    <!-- VI Option -->
-    <li class="for_rent_section_list_item">
-      <img class="for_rent_img" src="/VEDO_Brockers/assets/6-bda2cb63.jpg" alt="III apartament option" />
-      <div class="for_rent_info_container">
-        <p class="for_rent_desc">Single-family home</p>
-        <h4 class="for_rent_adress">123 Anywhere St., Any City</h4>
-        <p class="for_rent_attributes">
-          2 Beds | 3 Bath | 2 Car <span>Wheelchair accessible listing</span>
-        </p>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Rowhouse</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">
+        2 Beds | 1 Bath | 1 Car <span>Wheelchair accessible listing</span>
+      </p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
+
+  <!-- II Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/4-35b7391a.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/5-713fc141.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/6-bda2cb63.jpg)"
+        ></div>
+        ...
       </div>
-    </li>
-  </ul>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Condo</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">2 Beds | 1 Bath | 1 Car</p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
+
+  <!-- III Option -->
+  <div class="option_section_img_container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/4-35b7391a.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/5-713fc141.jpg)"
+        ></div>
+        <div
+          class="swiper-slide"
+          style="background-image: url(/VEDO_Brockers/assets/6-bda2cb63.jpg)"
+        ></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- Information main container -->
+    <div class="option_section_info_container">
+      <p class="option_section_info_desc">Single-family home</p>
+      <h4 class="option_section_info_adress">123 Anywhere St., Any City</h4>
+      <p class="option_section_info_attributes">2 Beds | 1 Bath | 1 Car</p>
+    </div>
+    <p class="price">150.000$</p>
+  </div>
 </section>
 
       <!-- Feedback section -->
@@ -466,5 +643,8 @@
   </ul>
 </footer>
 
+    <!-- JS scripts -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
