@@ -1,5 +1,5 @@
 /* For sale section */
-.for_sale_section {
+.option_section {
   background-color: var(--main-background-color);
   padding: 20px;
   display: flex;
@@ -8,12 +8,12 @@
   gap: 20px;
 }
 
-.for_sale_section_headline {
+.option_section_headline {
   font-size: 24px;
   font-weight: normal;
 }
 
-.for_sale_option_container {
+.option_section_img_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,16 +39,12 @@
   }
 }
 
-.swiper-slide-img {
-  border-radius: 10px;
-}
-
 .swiper-pagination-bullet {
   background: black !important;
 }
 /* End of Swiper */
 
-.for_sale_info_container {
+.option_section_info_container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -61,7 +57,7 @@
   border-bottom: 1px solid var(--main-font-color);
 }
 
-.for_sale_attributes {
+.option_section_info_attributes {
   display: flex;
   flex-direction: column;
   align-items: center;
