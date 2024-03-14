@@ -32,44 +32,45 @@
       href="/VEDO_Brockers/assets/VEDO_logo_oryginal_with_gradient-f2681cc9.svg"
     />
     <script type="module" crossorigin src="/VEDO_Brockers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-d66cfd12.css">
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-ef924e46.css">
   </head>
   <body>
     <!-- Header -->
 <header class="header" id="header">
+  <!-- Header progress bar -->
   <div class="progress_container">
     <div class="progress_bar" id="myBar"></div>
   </div>
-  <nav class="header_nav container">
+
+  <!-- Mobile navigation -->
+  <nav class="mobile_header_nav container">
     <!-- Logo -->
-    <a href="./index.html" class="main_logo_link">
-      <svg class="main_logo_link_svg">
+    <a href="./index.html" class="mobile_main_logo_link">
+      <svg class="mobile_main_logo_link_svg">
         <use href="/VEDO_Brockers/assets/sprite-b8b15ab3.svg#icon_VEDO_logo_oryginal_empty"></use>
       </svg>
-      <div class="main_logo_link_company_container">
-        <h1 class="main_logo_link_company_name_headline">VEDO BROKERS</h1>
-        <h2 class="main_logo_link_company_name_desc">
-          ZNAJDŹ SWÓJ DOM W KRAKOWIE
-        </h2>
-      </div>
     </a>
 
     <!-- Mobile company name -->
     <a href="./index.html" class="mobile_company_name">VEDO Brokers</a>
 
     <!-- Navigation -->
-    <ul class="header_nav_list">
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#hero">Główna</a>
-        <a class="header_nav_list_item_link" href="#sale">Sprzedaż</a>
+    <ul class="mobile_header_nav_list">
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#hero">Główna</a>
+        <a class="mobile_header_nav_list_item_link" href="#sale">Sprzedaż</a>
       </li>
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#founders">Założyciele</a>
-        <a class="header_nav_list_item_link" href="#feedbacks">Opinie</a>
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#founders"
+          >Założyciele</a
+        >
+        <a class="mobile_header_nav_list_item_link" href="#rent">Wynajem</a>
       </li>
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#rent">Wynajem</a>
-        <a class="header_nav_list_item_link" href="#footer">Porozmawiajmy</a>
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#feedbacks">Opinie</a>
+        <a class="mobile_header_nav_list_item_link" href="#footer"
+          >Porozmawiajmy</a
+        >
       </li>
     </ul>
     <div class="mob_menu_btn">
@@ -78,6 +79,42 @@
       <span class="bar"></span>
     </div>
   </nav>
+
+  <!-- PC navigation -->
+  <nav class="pc_header_nav container">
+    <!-- Logo -->
+    <a href="./index.html" class="pc_main_logo_link">
+      <img
+        class="pc_main_logo_link_svg"
+        src="/VEDO_Brockers/assets/VEDO_logo_oryginal_PC-e128fac7.svg"
+        alt="VEDO logo for PC with company name"
+      />
+    </a>
+
+    <!-- Navigation -->
+    <ul class="pc_header_nav_list">
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#hero">Główna</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#sale">Sprzedaż</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#founders">Założyciele</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#rent">Wynajem</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#feedbacks">Opinie</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#footer">Porozmawiajmy</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Call us button -->
   <a class="call_us_btn" href="tel:+48793234477">
     <svg class="call_us_btn_svg">
       <use href="/VEDO_Brockers/assets/sprite-b8b15ab3.svg#icon_phone"></use>
@@ -244,13 +281,11 @@
     <!-- Dmytro -->
     <li class="founders_section_list_item ceo_member">
       <h2 class="founders_section_list_item_name">Dmytro Vezdenetskyi</h2>
-      <a href="https://www.facebook.com/profile.php?id=100007528536674">
-        <img
-          class="founders_section_list_item_img"
-          src="/VEDO_Brockers/assets/dmytro-e95213f6.jpg"
-          alt="Dmytro Vezdenetksyi"
-        />
-      </a>
+      <img
+        class="founders_section_list_item_img"
+        src="/VEDO_Brockers/assets/dmytro-e95213f6.jpg"
+        alt="Dmytro Vezdenetksyi"
+      />
       <p class="founders_section_list_item_desc">
         Prezes zarządu , expert ds. wynajmu i sprzedazy
       </p>
