@@ -1,5 +1,5 @@
 const mobMenuBtn = document.querySelector('.mob_menu_btn');
-const headerNavList = document.querySelector('.header_nav_list');
+const headerNavList = document.querySelector('.mobile_header_nav_list');
 
 mobMenuBtn.addEventListener('click', mobileMenu);
 
@@ -8,7 +8,7 @@ function mobileMenu() {
   headerNavList.classList.toggle('active');
 }
 
-const navLink = document.querySelectorAll('.header_nav_list_item_link');
+const navLink = document.querySelectorAll('.mobile_header_nav_list_item_link');
 
 navLink.forEach(n => n.addEventListener('click', closeMenu));
 

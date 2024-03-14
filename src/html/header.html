@@ -1,38 +1,39 @@
 <!-- Header -->
 <header class="header" id="header">
+  <!-- Header progress bar -->
   <div class="progress_container">
     <div class="progress_bar" id="myBar"></div>
   </div>
-  <nav class="header_nav container">
+
+  <!-- Mobile navigation -->
+  <nav class="mobile_header_nav container">
     <!-- Logo -->
-    <a href="./index.html" class="main_logo_link">
-      <svg class="main_logo_link_svg">
+    <a href="./index.html" class="mobile_main_logo_link">
+      <svg class="mobile_main_logo_link_svg">
         <use href="./svg/sprite.svg#icon_VEDO_logo_oryginal_empty"></use>
       </svg>
-      <div class="main_logo_link_company_container">
-        <h1 class="main_logo_link_company_name_headline">VEDO BROKERS</h1>
-        <h2 class="main_logo_link_company_name_desc">
-          ZNAJDŹ SWÓJ DOM W KRAKOWIE
-        </h2>
-      </div>
     </a>
 
     <!-- Mobile company name -->
     <a href="./index.html" class="mobile_company_name">VEDO Brokers</a>
 
     <!-- Navigation -->
-    <ul class="header_nav_list">
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#hero">Główna</a>
-        <a class="header_nav_list_item_link" href="#sale">Sprzedaż</a>
+    <ul class="mobile_header_nav_list">
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#hero">Główna</a>
+        <a class="mobile_header_nav_list_item_link" href="#sale">Sprzedaż</a>
       </li>
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#founders">Założyciele</a>
-        <a class="header_nav_list_item_link" href="#feedbacks">Opinie</a>
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#founders"
+          >Założyciele</a
+        >
+        <a class="mobile_header_nav_list_item_link" href="#rent">Wynajem</a>
       </li>
-      <li class="header_nav_list_item">
-        <a class="header_nav_list_item_link" href="#rent">Wynajem</a>
-        <a class="header_nav_list_item_link" href="#footer">Porozmawiajmy</a>
+      <li class="mobile_header_nav_list_item">
+        <a class="mobile_header_nav_list_item_link" href="#feedbacks">Opinie</a>
+        <a class="mobile_header_nav_list_item_link" href="#footer"
+          >Porozmawiajmy</a
+        >
       </li>
     </ul>
     <div class="mob_menu_btn">
@@ -41,6 +42,42 @@
       <span class="bar"></span>
     </div>
   </nav>
+
+  <!-- PC navigation -->
+  <nav class="pc_header_nav container">
+    <!-- Logo -->
+    <a href="./index.html" class="pc_main_logo_link">
+      <img
+        class="pc_main_logo_link_svg"
+        src="./svg/VEDO_logo_oryginal_PC.svg"
+        alt="VEDO logo for PC with company name"
+      />
+    </a>
+
+    <!-- Navigation -->
+    <ul class="pc_header_nav_list">
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#hero">Główna</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#sale">Sprzedaż</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#founders">Założyciele</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#rent">Wynajem</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#feedbacks">Opinie</a>
+      </li>
+      <li class="pc_header_nav_list_item">
+        <a class="pc_header_nav_list_item_link" href="#footer">Porozmawiajmy</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Call us button -->
   <a class="call_us_btn" href="tel:+48793234477">
     <svg class="call_us_btn_svg">
       <use href="./svg/sprite.svg#icon_phone"></use>

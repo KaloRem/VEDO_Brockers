@@ -27,13 +27,17 @@ links.forEach(link => {
 
     const target = event.target.getAttribute('href'); // Pobierz identyfikator celu
     const targetElement = document.querySelector(target); // Pobierz element docelowy
-    const targetPosition = targetElement.offsetTop; // Pobierz pozycję celu
+    let targetPosition = targetElement.offsetTop; // Pobierz pozycję celu
 
-    // Oblicz pozycję 40px wyżej celu
-    const scrollToPosition = targetPosition - 90;
+    // Określ docelową pozycję przewijania w zależności od rozmiaru ekranu
+    if (window.matchMedia('(min-width: 600px)').matches) {
+      targetPosition -= 146; // Na urządzeniach >= 600px obniż o 180px
+    } else {
+      targetPosition -= 90; // Na mniejszych urządzeniach obniż o 90px
+    }
 
     window.scrollTo({
-      top: scrollToPosition,
+      top: targetPosition,
       behavior: 'smooth', // Płynne przewijanie
     });
   });
