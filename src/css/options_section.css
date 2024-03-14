@@ -39,6 +39,11 @@
   }
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+  color: black !important;
+}
 .swiper-pagination-bullet {
   background: black !important;
 }
