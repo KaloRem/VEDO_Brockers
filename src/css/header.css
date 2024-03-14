@@ -1,9 +1,10 @@
 /* Header */
 .header {
-  background-color: var(--top-background-color);
-  position: sticky;
+  background: var(--top-background-color);
+  position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 /* Scroll Progress */
