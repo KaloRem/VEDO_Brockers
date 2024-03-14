@@ -70,7 +70,7 @@
   width: 20px;
   height: 20px;
   fill: var(--main-background-color);
-  animation: change-color 3s infinite;
+  animation: change-color 5s infinite;
 }
 @keyframes change-color {
   from {

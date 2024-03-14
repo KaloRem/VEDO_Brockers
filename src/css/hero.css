@@ -27,7 +27,7 @@
   outline: none;
   background: transparent;
   color: var(--main-font-color);
-  animation: infinite-shadow-and-color 3s ease-in-out infinite;
+  animation: infinite-shadow-and-color 5s ease-in-out infinite;
 }
 @keyframes infinite-shadow-and-color {
   0% {
