@@ -53,6 +53,7 @@ checkboxes.forEach(checkbox => {
   checkbox.addEventListener('change', () => {
     submitButton.disabled = !isAtLeastOneCheckboxChecked();
 
+    // Adding outline and transition to parents of checkboxes
     const checkboxParent = checkbox.parentElement;
     if (checkbox.checked) {
       checkboxParent.style.outline = '4px solid var(--main-font-color)';
