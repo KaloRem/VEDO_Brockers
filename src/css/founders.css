@@ -8,6 +8,10 @@
     rgba(37, 41, 38, 1) 100%
   );
   border-top: 1px solid var(--main-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .founders_section_list {
@@ -31,7 +35,7 @@
   border-bottom: 1px solid var(--top-background-color);
 }
 
-.mobile_founders_section_headline {
+.founders_section_headline {
   font-size: 24px;
   font-weight: normal;
 }
@@ -69,4 +73,26 @@
 
 .quote_founders_section_list_item_author {
   text-align: end;
+}
+
+@media screen and (min-width: 600px) {
+.founders_section {
+  padding: 80px;
+  border-top: 2px solid var(--main-font-color);
+}
+
+.founders_section_list {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.founders_section_list_item_img {
+  width: 100%;
+  height: 60vh;
+}
+
+.quote_founders_section_list_item {
+  width: 20%;
+  font-size: 32px;
+}
 }

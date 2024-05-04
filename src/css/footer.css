@@ -106,3 +106,63 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    gap: 400px;
+    padding: 80px;
+    background: var(--main-font-color);
+  }
+
+  .sm_and_adress_container {
+    width: 20%;
+  }
+
+  .addresses_list_item {
+    border: none;
+    background-color: var(--main-background-color);
+  }
+
+  .sm_list {
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+  }
+
+  .sm_links_list_item_svg {
+    fill: var(--main-font-color);
+  }
+
+  @keyframes change-color {
+    from {
+      fill: var(--main-font-color);
+    }
+    50% {
+      fill: white;
+    }
+    to {
+      fill: var(--main-font-color);
+    }
+  }
+
+  .sm_and_adress_headline {
+    color: var(--main-background-color);
+  }
+
+  .addresses_list_item_link {
+    color: var(--main-font-color);
+  }
+
+  .business_hours_list {
+    width: 20%;
+  }
+
+  .business_hours_list_item_headline {
+    color: var(--main-background-color);
+  }
+  
+  .business_hours_list_item_hours {
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+  }
+}

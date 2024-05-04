@@ -136,3 +136,23 @@
   box-shadow: 0 0 10px var(--main-font-color);
   transition: box-shadow 0.2s ease-in-out;
 }
+
+@media screen and (min-width: 600px) {
+  .modal {
+    overflow: hidden;
+  }
+
+  .modal_content {
+    margin: 160px auto;
+    padding: 60px;
+    width: 40%;
+  }
+
+  .modal_form {
+    gap: 20px;
+  }
+
+  .form_group {
+    gap: 20px;
+  }
+}
