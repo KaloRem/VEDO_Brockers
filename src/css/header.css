@@ -150,18 +150,25 @@
     display: none;
   }
   
+  .pc_header_nav_list_item_link {
+    transition: all 0.3s ease-in-out;
+  }
+  .pc_header_nav_list_item_link:hover {
+    color: white;
+  }
+
   /* Scroll Progress */
   .progress_container {
-    height: 4px;
+    height: 2px;
   }
 
   .progress_bar {
-    height: 4px;
+    height: 2px;
   }
 
   .pc_header_nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,14 +177,27 @@
 
   /* logo */
   .pc_main_logo_link_svg {
-    width: 400px;
-    height: 100px;
+    width: auto;
+    height: 60px;
+    animation: scaled-color-change 5s infinite;
   }
+
+@keyframes scaled-color-change {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 
   .pc_header_nav_list {
     display: flex;
-    gap: 60px;
-    font-size: 24px;
+    gap: 40px;
+    font-size: 14px;
   }
 
   .call_us_btn {

@@ -31,7 +31,7 @@ links.forEach(link => {
 
     // Określ docelową pozycję przewijania w zależności od rozmiaru ekranu
     if (window.matchMedia('(min-width: 600px)').matches) {
-      targetPosition -= 146; // Na urządzeniach >= 600px obniż o 180px
+      targetPosition -= 83; // Na urządzeniach >= 600px obniż o 180px
     } else {
       targetPosition -= 90; // Na mniejszych urządzeniach obniż o 90px
     }

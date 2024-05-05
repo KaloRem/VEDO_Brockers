@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 600px) {
   .hero_section {
-    padding: 141px 0px 0px 0px;
+    padding: 83px 0px 0px 0px;
     height: 100vh;
     gap: 0px;
     flex-direction: row;
@@ -63,6 +63,7 @@
   .hero_headline {
     width: 60%;
     font-size: 80px;
+    font-weight: lighter;
     padding-top: 0px;
     padding-bottom: 60px;
   }
@@ -71,6 +72,12 @@
     width: 60%;
     height: 120px;
     font-size: 24px;
+    animation: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .hero_btn:hover {
+    background: var(--main-font-color);
+    color: var(--top-background-color);
   }
 
   .hero_backgroud_img {

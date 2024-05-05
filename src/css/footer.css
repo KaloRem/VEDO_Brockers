@@ -31,6 +31,7 @@
 .addresses_list_item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 50px;
   border: 1px solid var(--main-font-color);
   padding: 10px 10px;
@@ -39,6 +40,12 @@
 
 .addresses_list_item_link {
   font-weight: bold;
+}
+
+.addresses_list_item_svg {
+  fill: var(--main-font-color);
+  width: 20px;
+  height: 20px;
 }
 
 /* SM */
@@ -117,11 +124,19 @@
 
   .sm_and_adress_container {
     width: 20%;
+    padding: 0;
   }
 
   .addresses_list_item {
     border: none;
     background-color: var(--main-background-color);
+  }
+
+  .addresses_list_item_link {
+    transition: all 0.3s ease-in-out;
+  }
+  .addresses_list_item_link:hover {
+    color: white;
   }
 
   .sm_list {
