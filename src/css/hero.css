@@ -19,6 +19,47 @@
   padding-top: 40px;
 }
 
+.calendar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar_link {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--main-font-color);
+  color: var(--top-background-color);
+  font-size: 16px;
+  font-weight: bold;
+  animation: infinite-change-color-calendar-link 10s ease-in-out infinite;
+}
+@keyframes infinite-change-color-calendar-link {
+  50% {
+    background-color: black;
+    color: white;
+  }
+}
+
+.calendar_link_svg {
+  width: 40px;
+  height: 40px;
+  stroke: black;
+  fill: var(--main-font-color);
+  animation: infinite-change-color-calendar-svg 5s ease-in-out infinite;
+}
+@keyframes infinite-change-color-calendar-svg {
+  0% {
+    fill: var(--main-font-color);
+  }
+  50% {
+    fill: white;
+  }
+  100% {
+    fill: var(--main-font-color);
+  }
+}
+
 .hero_btn {
   display: none;
 }
@@ -44,28 +85,6 @@
     box-shadow: 0 0 10px var(--main-font-color);
   }
 } */
-
-.qxCTlb {
-  height: 50px !important;
-  border-radius: 10px !important;
-  border: 1px solid var(--main-font-color) !important;
-  outline: none !important;
-  background: transparent !important;
-  color: var(--main-font-color) !important;
-  animation: infinite-shadow-and-color 5s ease-in-out infinite !important;
-}
-
-@keyframes infinite-shadow-and-color {
-  0% {
-    box-shadow: 0 0 10px var(--main-font-color);
-  }
-  50% {
-    box-shadow: 0 0 15px white;
-  }
-  100% {
-    box-shadow: 0 0 10px var(--main-font-color);
-  }
-}
 
 .hero_backgroud_img {
   border-radius: 10px;
@@ -94,6 +113,10 @@
     padding-bottom: 60px;
   }
 
+  .calendar_container {
+    width: 60%;
+  }
+
   /* .hero_btn {
     width: 60%;
     height: 120px;
@@ -105,18 +128,6 @@
     background: var(--main-font-color);
     color: var(--top-background-color);
   } */
-
-  .qxCTlb {
-    width: 60%;
-    height: 120px;
-    font-size: 24px;
-    animation: none;
-    transition: all 0.3s ease-in-out;
-  }
-  .qxCTlb:hover {
-    background: var(--main-font-color);
-    color: var(--top-background-color);
-  }
 
   .hero_backgroud_img {
     display: none;
