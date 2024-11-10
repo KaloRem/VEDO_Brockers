@@ -10,7 +10,11 @@
 }
 
 /* Adress */
-.sm_and_adress_container {
+.sm_and_adress_container_pc {
+  display: none;
+}
+
+.sm_and_adress_container_mob {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -79,6 +83,7 @@
   fill: var(--main-background-color);
   animation: change-color 5s infinite;
 }
+
 @keyframes change-color {
   from {
     fill: var(--main-background-color);
@@ -114,7 +119,7 @@
   gap: 10px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .footer {
     display: flex;
     gap: 400px;
@@ -122,9 +127,16 @@
     background: var(--main-font-color);
   }
 
-  .sm_and_adress_container {
+  .sm_and_adress_container_mob {
+    display: none;
+  }
+
+  .sm_and_adress_container_pc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
     width: 20%;
-    padding: 0;
   }
 
   .addresses_list_item {
@@ -176,7 +188,7 @@
   .business_hours_list_item_headline {
     color: var(--main-background-color);
   }
-  
+
   .business_hours_list_item_hours {
     background-color: var(--main-background-color);
     color: var(--main-font-color);

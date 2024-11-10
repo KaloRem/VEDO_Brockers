@@ -46,7 +46,7 @@
   box-shadow: 0 0 10px var(--main-font-color);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .hero_section {
     padding: 83px 0px 0px 0px;
     height: 100vh;

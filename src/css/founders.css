@@ -75,24 +75,24 @@
   text-align: end;
 }
 
-@media screen and (min-width: 600px) {
-.founders_section {
-  padding: 80px;
-  border-top: 2px solid var(--main-font-color);
-}
+@media screen and (min-width: 1200px) {
+  .founders_section {
+    padding: 80px;
+    border-top: 2px solid var(--main-font-color);
+  }
 
-.founders_section_list {
-  flex-direction: row;
-  justify-content: space-between;
-}
+  .founders_section_list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.founders_section_list_item_img {
-  width: 100%;
-  height: 60vh;
-}
+  .founders_section_list_item_img {
+    width: 100%;
+    height: 60vh;
+  }
 
-.quote_founders_section_list_item {
-  width: 30%;
-  font-size: 32px;
-}
+  .quote_founders_section_list_item {
+    width: 30%;
+    font-size: 32px;
+  }
 }

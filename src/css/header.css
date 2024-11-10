@@ -145,11 +145,11 @@
 }
 
 /* PC */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .mobile_header_nav {
     display: none;
   }
-  
+
   .pc_header_nav_list_item_link {
     transition: all 0.3s ease-in-out;
   }
@@ -182,17 +182,17 @@
     animation: scaled-color-change 5s infinite;
   }
 
-@keyframes scaled-color-change {
-  from {
-    transform: scale(1);
+  @keyframes scaled-color-change {
+    from {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1);
+    }
   }
-  50% {
-    transform: scale(1.1);
-  }
-  to {
-    transform: scale(1);
-  }
-}
 
   .pc_header_nav_list {
     display: flex;
