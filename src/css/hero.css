@@ -20,6 +20,10 @@
 }
 
 .hero_btn {
+  display: none;
+}
+
+/* .hero_btn {
   height: 50px;
   width: 100%;
   border-radius: 10px;
@@ -29,6 +33,28 @@
   color: var(--main-font-color);
   animation: infinite-shadow-and-color 5s ease-in-out infinite;
 }
+@keyframes infinite-shadow-and-color {
+  0% {
+    box-shadow: 0 0 10px var(--main-font-color);
+  }
+  50% {
+    box-shadow: 0 0 15px white;
+  }
+  100% {
+    box-shadow: 0 0 10px var(--main-font-color);
+  }
+} */
+
+.qxCTlb {
+  height: 50px !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--main-font-color) !important;
+  outline: none !important;
+  background: transparent !important;
+  color: var(--main-font-color) !important;
+  animation: infinite-shadow-and-color 5s ease-in-out infinite !important;
+}
+
 @keyframes infinite-shadow-and-color {
   0% {
     box-shadow: 0 0 10px var(--main-font-color);
@@ -68,7 +94,7 @@
     padding-bottom: 60px;
   }
 
-  .hero_btn {
+  /* .hero_btn {
     width: 60%;
     height: 120px;
     font-size: 24px;
@@ -76,6 +102,18 @@
     transition: all 0.3s ease-in-out;
   }
   .hero_btn:hover {
+    background: var(--main-font-color);
+    color: var(--top-background-color);
+  } */
+
+  .qxCTlb {
+    width: 60%;
+    height: 120px;
+    font-size: 24px;
+    animation: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .qxCTlb:hover {
     background: var(--main-font-color);
     color: var(--top-background-color);
   }

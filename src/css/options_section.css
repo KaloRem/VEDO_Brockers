@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .option_section_img_container {
@@ -86,7 +87,6 @@
 
   .options_container {
     flex-direction: row;
-    gap: 40px;
   }
   .swiper {
     height: 60vh;
