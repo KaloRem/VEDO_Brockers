@@ -9,7 +9,7 @@
   padding-bottom: 40px;
 }
 
-/* Adress */
+/* Adress Mob */
 .sm_and_adress_container_pc {
   display: none;
 }
@@ -122,11 +122,12 @@
 @media screen and (min-width: 1200px) {
   .footer {
     display: flex;
-    gap: 400px;
+    justify-content: space-between;
     padding: 80px;
     background: var(--main-font-color);
   }
 
+  /* Adress PC */
   .sm_and_adress_container_mob {
     display: none;
   }
@@ -134,10 +135,25 @@
   .sm_and_adress_container_pc {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding-bottom: 40px;
-    width: 20%;
+    justify-content: space-between;
   }
+
+  .sm_and_adress_flex_container_pc {
+    display: flex;
+    gap: 100px;
+  }
+
+  .sm_and_adress_flex_item_pc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .addresses_list_item {
+    gap: 40px;
+  }
+
+  /* //////////////////////////////// */
 
   .addresses_list_item {
     border: none;
