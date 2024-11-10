@@ -32,7 +32,7 @@
       href="/VEDO_Brockers/assets/VEDO_logo_oryginal_with_gradient-f2681cc9.svg"
     />
     <script type="module" crossorigin src="/VEDO_Brockers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-92a5bd1d.css">
+    <link rel="stylesheet" href="/VEDO_Brockers/assets/index-3e24bdbc.css">
   </head>
   <body>
     <!-- Header -->
@@ -129,6 +129,29 @@
   <div class="hero_information_container">
     <h2 class="hero_headline">Znajdź swój DOM w Krakowie</h2>
     <button id="openBtn" class="hero_btn">Skontaktuj się z nami</button>
+    <!-- Google Calendar Appointment Scheduling begin -->
+    <link
+      href="https://calendar.google.com/calendar/scheduling-button-script.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://calendar.google.com/calendar/scheduling-button-script.js"
+      async
+    ></script>
+    <script>
+      (function () {
+        var target = document.currentScript;
+        window.addEventListener('load', function () {
+          calendar.schedulingButton.load({
+            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3SYHVMOTIuXajfgUnCDPJrTMEwzXsyXVbHG0IUmRhjicm15VNP2cuZRp6t-usr8_dAprL0PacT?gv=true',
+            color: '#616161',
+            label: 'Zarezerwuj spotkanie',
+            target,
+          });
+        });
+      })();
+    </script>
+    <!-- end Google Calendar Appointment Scheduling -->
   </div>
 
   <!-- Hero background img -->
