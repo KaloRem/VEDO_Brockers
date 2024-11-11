@@ -79,15 +79,18 @@
   align-items: center;
 }
 
+@media screen and (min-width: 600px) {
+  .options_container {
+    flex-direction: row;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .option_section {
     padding: 80px;
     border-top: 2px solid var(--main-font-color);
   }
 
-  .options_container {
-    flex-direction: row;
-  }
   .swiper {
     height: 60vh;
   }

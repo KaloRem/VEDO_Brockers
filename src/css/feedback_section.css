@@ -50,6 +50,13 @@
   background-color: var(--main-font-color);
 }
 
+@media screen and (min-width: 600px) {
+  .feedback_section_list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .feedback_section {
     padding: 80px;
@@ -57,11 +64,6 @@
 
   .feedback_section_headline {
     padding-bottom: 80px;
-  }
-
-  .feedback_section_list {
-    flex-direction: row;
-    justify-content: space-between;
   }
 
   .feedback_section_list_item {

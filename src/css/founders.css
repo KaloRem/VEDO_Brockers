@@ -75,6 +75,18 @@
   text-align: end;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .founders_section_list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .founders_section_list_item_img {
+    max-width: 800px;
+    max-height: 300px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .founders_section {
     padding: 80px;
