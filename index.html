@@ -53,6 +53,8 @@
 
     <!-- Mobile company name -->
     <a href="./index.html" class="mobile_company_name">VEDO Brokers</a>
+    <button onclick="changeLanguage('pl')">PL</button>
+    <button onclick="changeLanguage('ua')">UA</button>
 
     <!-- Navigation -->
     <ul class="mobile_header_nav_list">
@@ -127,9 +129,10 @@
 <section id="hero" class="hero_section">
   <!-- Hero information -->
   <div class="hero_information_container">
-    <h2 class="hero_headline">Znajdź swój DOM w Krakowie</h2>
+    <h2 id="heroHeadline" class="hero_headline">Znajdź swój DOM w Krakowie</h2>
     <div class="calendar_container">
       <a
+        id="heroCalendarHeadline"
         class="calendar_link"
         href="https://calendar.app.google/U5xyrtEC2tmxC7SL9"
         >Zarezerwuj konsultację z nami
